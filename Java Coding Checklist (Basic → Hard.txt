@@ -1,0 +1,106 @@
+Java Coding Checklist (Basic → Hard)
+
+BASIC
+
+Print Hello World
+Create variables (primitive types: int, double, boolean, char)
+Create String variables and concatenate strings
+Basic math operators (+, -, *, /, %)
+Write if, else if, else
+Write a simple for loop
+Write a while loop
+Write a do...while loop
+Create a method and call it (static and instance)
+Use comments (//, /* ... */, /** Javadoc */)
+
+BEGINNER
+
+Use switch statement (modern switch expressions optional)
+Create arrays and access elements
+Use ArrayList (add/remove/get)
+Iterate collections with for-each
+Use break and continue
+Method parameters and return types
+Method overloading
+Use final for constants
+Basic string methods (length(), substring(), indexOf(), replace())
+Parse basic types from String (Integer.parseInt, Double.parseDouble)
+
+INTERMEDIATE
+
+Create classes and objects (constructors, fields, methods)
+Use this keyword
+Encapsulation: private fields + getters/setters
+Use static fields and methods
+Inheritance (extends) and method overriding
+Use super() to call parent constructors
+Interfaces and implementing an interface
+Use ArrayList, HashMap, HashSet from java.util
+Exception handling (try, catch, finally, throws)
+Use StringBuilder for efficient string concatenation
+
+INTERMEDIATE+ (I/O, Streams, Concurrency basics)
+
+Read/write files using Files / BufferedReader / BufferedWriter
+Parse/Write JSON conceptually (use Jackson or Gson in code examples)
+Use java.time API (LocalDate, LocalDateTime, Duration, DateTimeFormatter)
+Use Stream API for collections (filter, map, collect)
+Use Optional to avoid null checks
+Basic multithreading: create and start Thread
+Use Runnable and Callable
+Synchronization basics (synchronized keyword)
+Use ExecutorService and thread pools
+Basic logging using java.util.logging or slf4j (coding-only usage)
+
+ADVANCED
+
+Implement design patterns (Singleton, Factory, Strategy — simple examples)
+Create custom exceptions
+Use generics (generic classes and methods)
+Implement Comparable and Comparator for sorting
+Use Collections utility methods (sort, unmodifiableList, etc.)
+Use Files.walk() for recursive file operations
+Use CompletableFuture for async programming
+Use JDBC to connect to a database, run simple queries
+Transactions basics with JDBC (setAutoCommit(false), commit, rollback)
+Build modular code with packages and access modifiers
+
+ADVANCED+
+
+Build a simple REST API using a framework (Spring Boot style: controllers, services — coding layout)
+Use Dependency Injection conceptually (code examples with interfaces)
+Use JPA/Hibernate concepts for entity mapping (basic entity, repository pattern)
+Implement caching patterns (simple in-memory cache)
+Use annotations and reflection (simple examples)
+Advanced concurrency: locks (ReentrantLock), ConcurrentHashMap, CountDownLatch, Semaphore
+Profiling and optimization tips (identify hotspots, optimize loops/data structures)
+Write unit-testable code and basic tests with JUnit (test method examples)
+Use build tools: javac / java commands and basic pom.xml or build.gradle layout (coding-only)
+
+HARD / EXPERT
+
+Build a full REST service with Spring Boot (controllers, services, repositories, DTOs)
+Implement authentication & authorization (JWT-based) in a sample app
+Use migrations concept (Flyway or Liquibase coding layout)
+Implement reactive programming basics (Project Reactor / RxJava example concepts)
+Implement distributed concepts (message queues example: publish/subscribe)
+Advanced database optimization: indexes, query tuning (code examples and notes)
+Build a plugin system with classloaders (dynamic loading/unloading)
+Create custom class loaders and understand the classpath
+Advanced performance tuning: GC tuning basics, memory/heap diagnostics
+End-to-end: REST API + DB + async worker + tests + basic CI pipeline (layout & code snippets)
+
+MINI-PROJECTS BY DIFFICULTY
+
+Basic: CLI calculator program
+Beginner: Contact manager saving to a CSV file
+Intermediate: Notes app with file-based persistence (CRUD)
+Advanced: Simple RESTful API prototype (controller + in-memory store)
+Hard: Spring Boot app with user auth, JPA entities, and background worker
+
+QUICK DAILY PRACTICE
+
+15–30 min: Implement one small method (loops/conditionals)
+20 min: Add/extend a mini-project feature
+10 min: Write a unit test for an existing method
+15 min: Read stack traces and fix one bug

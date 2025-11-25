@@ -1,0 +1,112 @@
+SQL Coding Checklist (Basic → Hard)
+
+BASIC
+
+Write a SELECT query to return all columns (SELECT * FROM table;)
+Select specific columns (SELECT id, name FROM table;)
+Use WHERE to filter rows (WHERE, comparison operators =, <>, <, >, <=, >=)
+Use ORDER BY to sort results (ASC, DESC)
+Use LIMIT (or TOP for some dialects) to limit rows
+Use basic aggregation functions (COUNT, SUM, AVG, MIN, MAX)
+Use GROUP BY with aggregation
+Use HAVING to filter aggregated results
+Insert rows (INSERT INTO table (cols) VALUES (...);)
+Update rows (UPDATE table SET col = value WHERE ...;)
+Delete rows (DELETE FROM table WHERE ...;)
+Use single-line and multi-line comments (--, /* ... */)
+
+BEGINNER
+
+Create a table (CREATE TABLE ...)
+Define common data types (INT, VARCHAR, TEXT, DATE, BOOLEAN, DECIMAL)
+Add a primary key (PRIMARY KEY)
+Add NOT NULL and DEFAULT constraints
+Use ALTER TABLE to add/drop columns
+Add UNIQUE constraint
+Use IS NULL / IS NOT NULL
+Use IN, BETWEEN, LIKE (wildcards %, _)
+Basic JOINs: INNER JOIN, LEFT JOIN, RIGHT JOIN (write examples)
+Use DISTINCT to remove duplicate rows
+
+INTERMEDIATE
+
+Use INNER JOIN with multiple tables
+Use LEFT JOIN to keep unmatched left rows
+Use FULL OUTER JOIN (if supported) or emulate it
+Use self-joins for hierarchical or relational queries
+Write subqueries in SELECT, FROM, and WHERE clauses
+Use correlated subqueries
+Use window functions (OVER, ROW_NUMBER(), RANK(), PARTITION BY, ORDER BY)
+Create and use indexes (CREATE INDEX) and understand basic use-cases
+Understand and use composite indexes and index ordering
+Use transactions (BEGIN, COMMIT, ROLLBACK)
+Use EXPLAIN / EXPLAIN ANALYZE to inspect query plans
+Use CASE expressions for conditional logic in queries
+
+INTERMEDIATE+ (Design & Integrity)
+
+Define foreign keys and referential integrity (FOREIGN KEY ... REFERENCES)
+Understand ON DELETE / ON UPDATE actions (CASCADE, SET NULL, RESTRICT)
+Normalize tables to 1NF, 2NF, 3NF (identify redundancy and normalize)
+Denormalize intentionally for performance (know trade-offs)
+Create views (CREATE VIEW) and query them
+Create materialized views (if supported) or simulate them
+Use stored procedures and functions (create, call, and drop)
+Use prepared statements / parameterized queries (syntax varies by DB)
+Use triggers (CREATE TRIGGER) for automated actions on DML
+Use common table expressions (CTEs) — WITH clauses (recursive CTEs)
+
+ADVANCED
+
+Optimize queries: rewrite joins/subqueries, use appropriate indexes
+Partition large tables (range/list/hash partitioning where supported)
+Implement and test transaction isolation levels (READ UNCOMMITTED, READ COMMITTED, REPEATABLE READ, SERIALIZABLE)
+Handle locking issues and deadlocks (diagnose & resolve)
+Implement bulk inserts / COPY / LOAD DATA (dialect-specific)
+Create and use full-text search indexes (or external engines) — basic examples
+Implement and maintain database migrations (schema change scripts)
+Backup and restore basics (dump and restore commands conceptually)
+Use advanced window functions (LAG, LEAD, cumulative sums)
+Use JSON/ARRAY/GEOMETRY column types and query them (if supported)
+Implement role-based access control: GRANT / REVOKE permissions
+
+ADVANCED+
+
+Design and implement sharding strategies conceptually
+Implement read replicas / replication basics (concepts and failover)
+Build a simple ETL query flow (extract → transform → load) in SQL
+Use query profiling and performance tuning tools (EXPLAIN, slow query logs)
+Implement audit/tracking tables (change history / soft deletes with deleted_at)
+Create efficient pagination strategies for large datasets (keyset pagination)
+Implement complex OLAP queries (GROUPING SETS, ROLLUP, CUBE)
+Use windowed aggregates for time-series analysis
+Implement data retention policies and archival strategies
+Build a simple data warehouse schema (star/snowflake) and write sample star-schema queries
+
+HARD / EXPERT
+
+Implement cross-database queries (federated queries / foreign data wrappers)
+Implement multi-master replication or conflict resolution strategies (conceptual)
+Create a change-data-capture (CDC) pipeline (conceptual SQL steps)
+Implement eventual consistency patterns in SQL-backed systems
+Design and optimize for very large datasets (billions of rows): indexing, partitioning, compression
+Implement transactional messaging patterns (outbox pattern) with SQL
+Build a performant reporting system with pre-aggregations (rollups/materialized views)
+Implement advanced security: row-level security, data masking, encryption-at-rest (concepts + examples)
+Architect a migration strategy for zero-downtime schema changes
+Automate backup verification and disaster recovery drills (conceptual SQL tasks)
+
+MINI-PROJECTS BY DIFFICULTY
+
+Basic: Create a users table and run CRUD queries
+Beginner: Build products and orders tables and write queries to list orders per user
+Intermediate: Implement pagination + sorting for an orders listing query
+Advanced: Design a normalized blog schema (users, posts, comments, tags) and write reporting queries (top authors, popular tags)
+Hard: Create a small analytics star-schema (fact table + dimension tables) and write OLAP-style aggregation queries
+
+QUICK DAILY PRACTICE
+
+15–30 min: Solve one query challenge (joins, aggregates)
+20 min: Rewrite a slow query and compare EXPLAIN plans
+10 min: Add an index and measure performance change (conceptually or via EXPLAIN)
+15 min: Design or refactor one table for normalization or performance

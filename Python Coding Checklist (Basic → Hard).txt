@@ -1,0 +1,107 @@
+Python Coding Checklist (Basic → Hard)
+
+BASIC
+
+Print Hello World
+Create variables (name, age, price)
+Use basic data types (str, int, float, bool)
+Basic math operators (+, -, *, /, %, **)
+String concatenation and f-strings
+Write if, elif, else
+Write a simple for loop
+Write a while loop
+Create a function (def) and call it
+Return a value from a function
+Use comments (#, '''...''')
+
+BEGINNER
+
+Use break and continue
+Use range() with for
+Create and use lists
+Create and use tuples
+Create and use dictionaries
+Create and use sets
+List comprehensions
+Dictionary comprehensions
+Default function parameters
+Lambda functions (lambda)
+Use len(), type(), isinstance()
+
+INTERMEDIATE
+
+Read from a file (open, read, with)
+Write to a file (open, write, with)
+Parse JSON (json.loads, json.dumps)
+Convert dict/list to JSON and back
+Exception handling (try, except, finally)
+Use modules (import, from ... import ...)
+Create and use custom modules
+Use argparse for CLI arguments
+Use enumerate() and zip()
+Use map(), filter(), reduce()
+
+INTERMEDIATE+ (Data & I/O)
+
+Work with CSV (csv module)
+Work with dates (datetime)
+Use os and pathlib for file paths
+Use re for regular expressions
+Read/write binary files
+Use pickle (serialize/deserialize objects)
+Basic logging (logging module)
+Virtual environments concept (coding only — use venv commands if needed)
+Use context managers and create a custom __enter__/__exit__
+Iterator and generator basics (yield)
+
+ADVANCED
+
+Write classes and use OOP (encapsulation, methods)
+Use class inheritance and super()
+Use magic methods (__init__, __str__, __repr__, __iter__)
+Implement properties with @property
+Create and use decorators
+Create and use generators for streaming data
+Use async / await and asyncio basics
+Make HTTP requests with requests (coding-only usage)
+Build a simple REST client or API consumer
+Basic unit-testable functions (write simple asserts or unittest tests)
+
+ADVANCED+
+
+Write unit tests with unittest or pytest
+Use mocks in tests (unittest.mock)
+Create a simple package (setup.py / pyproject.toml) — coding layout
+Use dataclasses (@dataclass)
+Use type hints and mypy-friendly annotations
+Use dependency injection patterns (simple examples)
+Implement retry logic with exponential backoff
+Use concurrent.futures for thread/process pools
+Basic profiling with cProfile (coding examples)
+Use pathlib and robust file handling patterns
+
+HARD / EXPERT
+
+Build an async HTTP client or server (aiohttp / FastAPI-style coding)
+Create a small REST API with Flask or FastAPI (endpoints + JSON)
+Implement authentication (token-based/JWT) in a simple API
+Use SQLAlchemy ORM for database models and queries
+Implement migrations conceptually (Alembic-style)
+Implement caching layer (in-memory or file cache)
+Build a CLI application with subcommands (argparse / click)
+Create custom metaclasses (advanced OOP)
+Implement a plugin system (dynamic imports + hooks)
+Build a full small system: API + DB models + async tasks + tests
+MINI-PROJECTS BY DIFFICULTY
+Basic: simple calculator CLI
+Beginner: todo list saved to a JSON file
+Intermediate: contact manager with CSV import/export
+Advanced: RESTful notes API (Flask/FastAPI) with CRUD
+Hard: Authenticated web service with DB, background worker, and tests
+
+QUICK DAILY PRACTICE
+
+15–30 min: Solve 1 algorithmic problem (loops, arrays)
+20 min: Add/extend a feature in a mini-project
+10 min: Write one unit test for existing code
+15 min: Read logs / fix one bug or refactor a small function
