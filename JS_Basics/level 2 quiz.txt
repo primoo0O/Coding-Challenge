@@ -1,0 +1,79 @@
+1. (Multiple Choice — 1 pt)
+Which conversion ensures "25" becomes the number 25?
+A. "25".toString()
+B. Number("25")
+C. "25" * "5"
+D. Boolean("25")
+
+2. (True / False — 1 pt)
+if (x > 0) { ... } else if (x < 0) { ... } else { ... } correctly distinguishes positive, negative, and zero.
+True / False
+
+3. (Multiple Choice — 1 pt)
+Which switch case will match when day = 3?
+A.
+
+switch(day) {
+  case "3": ...
+}
+
+
+B.
+
+switch(day) {
+  case 3: ...
+}
+
+
+C.
+
+switch(true) {
+  case day === 3: ...
+}
+
+
+Choose the BEST single answer.
+
+4. (Write the output — 1 pt)
+What does this print?
+
+const n = 0;
+console.log(n > 0 ? "pos" : "not pos");
+
+
+5. (Multiple Choice — 1 pt)
+A password rule requires at least 8 characters. Which expression correctly checks this?
+A. if (password.length >= 8)
+B. if (password >= 8)
+C. if (password.length > "8")
+D. if (password.length == null)
+
+6. (True / False — 1 pt)
+Number.isNaN(Number("abc")) returns true.
+True / False
+
+7. (Write the output — 1 pt)
+What is logged?
+
+let g = 85;
+if (g >= 90) console.log("A");
+else if (g >= 80) console.log("B");
+else console.log("C");
+
+
+8. (Multiple Choice — 1 pt)
+Which check ensures the user entered a valid day number 1–7 (inclusive)?
+A. if (day > 0 && day < 8)
+B. if (day >= 1 || day <= 7)
+C. if (day !== 0 || day !== 8)
+D. if (day == 1 && day == 7)
+
+9. (Write the output — 1 pt)
+What does this display if ageInput = "20" (string)?
+
+const age = Number(ageInput);
+console.log(age < 18 ? "minor" : "adult");
+
+
+10. (Short answer — 1 pt)
+You prompt for a grade and the user types "ninety" (a non-numeric string). Before deciding grade A–F, what should your program do and why? (One short sentence.)

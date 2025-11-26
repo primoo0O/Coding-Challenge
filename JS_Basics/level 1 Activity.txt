@@ -1,0 +1,76 @@
+✅ ACTIVITY: JavaScript Basic Skills Application
+📌 Problem Title: Personal Info & Temperature Analyzer Program
+📚 Instructions:
+
+Create a JavaScript file named basicSkillsActivity.js that completes all tasks below.
+This activity is designed to test every Level 1 skill you learned.
+
+🟩 PROBLEM DESCRIPTION
+
+You are asked to create a small program that collects personal information, performs calculations, checks conditions, and displays various outputs.
+
+The program must do the following:
+1️⃣ Display a Welcome Message
+
+ex: 
+Welcome to My JavaScript Basics Program!
+
+2️⃣ Create the Required Variables
+
+Create the following variables:
+
+Your name (string)
+Your age (number)
+Are you a student? (boolean)
+A variable named temperature (number — any value you choose)
+
+3️⃣ Output a Sentence Using BOTH:
+
+String concatenation
+Template literals
+Example:
+(My name is ___ and I am ___ years old.)   <-- concatenation
+(My name is name and I am age years old.)   <-- template literal
+
+4️⃣ Perform Basic Math Operations
+
+Create two number variables and print:
+
+Addition
+Subtraction
+Multiplication
+Division
+Modulo
+
+Format example:
+
+Sum: __
+Difference: __
+Product: __
+Quotient: __
+Remainder: __
+
+5️⃣ Use an if/else Statement
+
+Using the temperature variable:
+Print "It’s cold!" if temperature < 20
+Print "The weather is nice." if temperature is between 20 and 30
+Print "It’s very hot!" if temperature > 30
+
+6️⃣ Create and Modify a Counter
+
+Create a variable named counter
+Increment it three times
+Decrement it once
+Print the final value
+
+7️⃣ Use undefined and null
+
+Create a variable with undefined
+Create a variable with null
+Use typeof to display each type
+
+Example:
+
+Type of undefinedVar: __
+Type of nullVar: __

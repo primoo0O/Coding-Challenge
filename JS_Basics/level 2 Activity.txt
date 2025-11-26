@@ -1,0 +1,53 @@
+Activity — "User Validator & Day Helper"
+
+File name: level2.js
+Goal: combine prompts, conditionals, switch, ternary, and basic validation.
+
+Instructions: Write a single JavaScript program that does the following when run in the browser (use prompt() and alert() or console.log()):
+
+Prompt the user for their age.
+
+Convert the input to a number.
+
+If input is empty or not a number, display: "Please enter a valid age." and stop further checks.
+
+Otherwise, print "You are a minor." if age < 18, else print "You are an adult.".
+
+
+Prompt the user for a number (can be negative, zero, or positive).
+
+Print whether it is "positive", "negative", or "zero".
+
+
+Prompt the user for a grade (0–100).
+
+Use if / else if / else to print the letter grade:
+
+90–100 → "A"
+
+80–89 → "B"
+
+70–79 → "C"
+
+60–69 → "D"
+
+0–59 → "F"
+
+If grade is outside 0–100 or not a number, print "Invalid grade".
+
+
+Prompt the user for a day number (1–7).
+
+Use a switch statement to print the day name (1 -> Monday, 2 -> Tuesday, ..., 7 -> Sunday).
+
+If the number is not in 1–7, print "Invalid day".
+
+
+Prompt the user to enter a password (string).
+
+Check length: if length >= 8, print "Password accepted", else print "Password too short".
+
+
+Prompt the user for one more number and use a ternary operator to print:
+
+"Greater than 10" if number > 10, otherwise "10 or less".

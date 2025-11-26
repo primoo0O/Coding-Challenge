@@ -1,0 +1,111 @@
+PART I — MULTIPLE CHOICE (1 point each)
+
+Choose the BEST answer.
+
+1. Which keyword is used to create a variable that cannot be reassigned?
+A. var
+B. let
+C. const
+D. static
+
+2. What is the output of: console.log(typeof 123); ?
+A. integer
+B. string
+C. number
+D. float
+
+3. Which operator gives the remainder of a division?
+A. /
+B. %
+C. **
+D. //
+
+4. What will the following code print?
+
+console.log(10 + "5");
+
+
+A. 15
+B. "15"
+C. "105"
+D. Error
+
+5. Which of the following is a template literal?
+A. "Hello ${name}"
+B. `Hello ${name}`
+C. 'Hello ${name}'
+D. (Hello ${name})
+
+PART II — TRUE OR FALSE (1 point each)
+
+Write TRUE or FALSE.
+
+6. The let keyword allows reassignment of values.
+
+7. null and undefined return the same type when using typeof.
+
+8. The modulo operator (%) can be used to check if a number is odd or even.
+
+9. Template literals require backticks (`).
+
+10. String concatenation uses the + operator.
+
+PART III — WRITE THE OUTPUT (2 points each)
+
+Write exactly what the console displays.
+
+11.
+
+let x = 5;
+x++;
+console.log(x);
+
+
+Answer: _______________________
+
+12.
+
+console.log(typeof false);
+
+
+Answer: _______________________
+
+13.
+
+const a = 8;
+const b = 3;
+console.log(a % b);
+
+
+Answer: _______________________
+
+14.
+
+let msg = "Hello " + "World";
+console.log(msg);
+
+
+Answer: _______________________
+
+15.
+
+let name = "Niko";
+console.log(`Hi, ${name}!`);
+
+
+Answer: _______________________
+
+PART IV — SHORT PROBLEM SOLVING (5 points)
+
+16. Write a short JavaScript program that:
+
+Creates a variable temperature
+
+If temperature < 20 → print "Cold"
+
+If 20–30 → print "Warm"
+
+If > 30 → print "Hot"
+Write your answer below:
+
+// Your code heres
