@@ -1,0 +1,82 @@
+Level 1: Super Basic
+
+Print “Hello World” to the console.
+Create 3 variables using let, const, and var.
+Store your name, age, and a boolean in variables.
+Use string concatenation to print a sentence.
+Use template literals to print the same sentence.
+Perform basic math operations (+, -, *, /, %).
+Create a variable and increment & decrement it.
+Create a variable with undefined and one with null.
+Check if a number is even or odd using if/else.
+Use typeof to check the type of 5 different values.
+
+Level 2: Conditions & Logic
+
+Ask a user for age (prompt) and check if they are a minor or adult.
+Create a program that checks if a number is positive, negative, or zero.
+Create a simple grade checker (90=A, 80=B, etc.).
+Use a switch statement to check the day of the week.
+Make a program that checks if a password is long enough (≥ 8 chars).
+Create a ternary operator that checks if a number is > 10.
+
+Level 3: Loops
+
+Print numbers 1 to 10 using a for loop.
+Print numbers 10 to 1 using a while loop.
+Print all even numbers from 1–20.
+Create a loop that prints your name 5 times.
+Create a multiplication table using loops (1–10).
+Sum the numbers from 1 to 100 using a loop.
+
+Level 4: Functions
+
+Create a function that says “Hello, NAME”.
+Create a function that adds two numbers and returns the sum.
+Create a function that checks if a number is odd or even.
+Create a function that returns the largest of two numbers.
+Create a function that computes the area of a circle.
+Make a function that returns the square of a number.
+Create a function that reverses a string (basic approach).
+
+Level 5: Arrays
+
+Create an array of 5 fruits.
+Print the first and last elements.
+Add an item using push(), remove one using pop().
+Loop through an array of numbers and print the sum.
+Create an array of numbers and print only the even ones.
+Make a function that returns the largest number in an array.
+Use map() to create a new array where every number is doubled.
+Use filter() to get numbers greater than 10.
+Use includes() to check if a value exists.
+Level 6: Objects
+Create an object representing a student (name, age, grade).
+Add a method introduce() that prints:
+→ “Hi, I am NAME and I am AGE years old.”
+Add a new property (example: address).
+Loop through the object's keys using for…in.
+Create an array of objects and print all names.
+
+Level 7: DOM Basics
+
+Change the text of an element with id="title".
+Change the background color of the page using JavaScript.
+Create a button that shows an alert when clicked.
+Create an input + button that prints the input text on the page.
+Change an image’s src using JavaScript.
+Create a counter webpage (+ and – buttons).
+Create a simple todo list (add items to a <ul>).
+
+Level 8: Beginner Projects (still BASIC)
+
+Temperature Converter (°C ↔ °F).
+Simple Calculator (add/subtract/multiply/divide).
+Random Number Generator (1–100).
+Guessing Game (computer picks random number).
+Character Counter (counts letters typed in textbox).
+Password Strength Checker (weak/medium/strong).
+Digital Clock (display time using JS).
+Typing Speed Tester (basic version).
+Background Color Changer (random colors).
+Simple Login Form Validator.
