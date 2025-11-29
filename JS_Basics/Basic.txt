@@ -24,7 +24,7 @@ Level 3: Loops
 
 Print numbers 1 to 10 using a for loop.
 Print numbers 10 to 1 using a while loop.
-Print all even numbers from 1–20.
+Print all even numbers from 1–20. 2,4,6,8,10,12,14,16,18,20
 Create a loop that prints your name 5 times.
 Create a multiplication table using loops (1–10).
 Sum the numbers from 1 to 100 using a loop.
@@ -50,7 +50,9 @@ Make a function that returns the largest number in an array.
 Use map() to create a new array where every number is doubled.
 Use filter() to get numbers greater than 10.
 Use includes() to check if a value exists.
+
 Level 6: Objects
+
 Create an object representing a student (name, age, grade).
 Add a method introduce() that prints:
 → “Hi, I am NAME and I am AGE years old.”
