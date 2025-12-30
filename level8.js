@@ -95,7 +95,46 @@ function compute() {
   operator = null;
 }
 
+let randomBtn = document.getElementById('randomBtn');
+let randomOutput = document.getElementById('randomOutput');
+
+function getRandomInclusive(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+randomBtn.addEventListener("click", function() {
+  randomOutput.textContent = getRandomInclusive(1, 100);
+});
 
 
+let guessBtn = document.getElementById('guessBtn');
+let guessInput = document.getElementById('guessInput');
+let guessOutput = document.getElementById('guessOutput');
+let targetNumber = getRandomInclusive(1, 100);
 
+guessBtn.addEventListener("click", function() {
+  const userGuess = parseInt(guessInput.value);
+  if (isNaN(userGuess)) {
+    guessOutput.textContent = 'Please enter a valid number.';
+    return;
+  }
+  else if (userGuess < targetNumber) {
+    guessOutput.textContent = 'Too low! Try again.';
+  } 
+  else if (userGuess > targetNumber) {
+    guessOutput.textContent = 'Too high! Try again.';
+  }
+  else {
+    guessOutput.textContent = 'Congratulations! You guessed it right.';
+    targetNumber = getRandomInclusive(1, 100); // Reset the game
+  }
+});
 
+let CharCountInput = document.getElementById('CharCountInput');
+let CharCountOutput = document.getElementById('CharCountOutput');
+let CharCountBtn = document.getElementById('charCountBtn');
+
+CharCountBtn.addEventListener("click", function() {
+  const text = CharCountInput.value;
+  CharCountOutput.textContent = `Character Count: ${text.length}`;
+});
